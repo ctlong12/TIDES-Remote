@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		BD12FF571F02D14600313B65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12FF561F02D14600313B65 /* AppDelegate.swift */; };
-		BD12FF591F02D14600313B65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12FF581F02D14600313B65 /* ViewController.swift */; };
 		BD12FF5C1F02D14600313B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD12FF5A1F02D14600313B65 /* Main.storyboard */; };
 		BD12FF5E1F02D14600313B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD12FF5D1F02D14600313B65 /* Assets.xcassets */; };
 		BD12FF611F02D14600313B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD12FF5F1F02D14600313B65 /* LaunchScreen.storyboard */; };
+		BD12FF691F02D40000313B65 /* MentorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12FF681F02D40000313B65 /* MentorController.swift */; };
+		BD12FFAC1F0574B100313B65 /* AnimatePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12FFAB1F0574B100313B65 /* AnimatePopUp.swift */; };
+		BD12FFAE1F059BB500313B65 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12FFAD1F059BB500313B65 /* CustomViews.swift */; };
+		BD12FFB01F05A17400313B65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD12FFAF1F05A17400313B65 /* GoogleService-Info.plist */; };
+		BD12FFB31F05A43200313B65 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12FFB21F05A43200313B65 /* DataServices.swift */; };
+		BD12FFB71F05B56800313B65 /* Mentors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12FFB61F05B56800313B65 /* Mentors.swift */; };
+		BD12FFB91F05C62500313B65 /* MentorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12FFB81F05C62500313B65 /* MentorCell.swift */; };
+		BD12FFBB1F05C97000313B65 /* FirebaseFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD12FFBA1F05C97000313B65 /* FirebaseFunctions.swift */; };
+		C1D62F54F2C81344E685AFC9 /* Pods_TIDESMentors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61973D8CA67C508D4AB412E8 /* Pods_TIDESMentors.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2157A8D44F0A445D7D91F619 /* Pods-TIDESMentors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIDESMentors.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIDESMentors/Pods-TIDESMentors.release.xcconfig"; sourceTree = "<group>"; };
+		5B1B053BE05AA52244DBA4E5 /* Pods-TIDESMentors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIDESMentors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIDESMentors/Pods-TIDESMentors.debug.xcconfig"; sourceTree = "<group>"; };
+		61973D8CA67C508D4AB412E8 /* Pods_TIDESMentors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIDESMentors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD12FF531F02D14600313B65 /* TIDESMentors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIDESMentors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD12FF561F02D14600313B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD12FF581F02D14600313B65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD12FF5B1F02D14600313B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD12FF5D1F02D14600313B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD12FF601F02D14600313B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD12FF621F02D14600313B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD12FF681F02D40000313B65 /* MentorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorController.swift; sourceTree = "<group>"; };
+		BD12FFAB1F0574B100313B65 /* AnimatePopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatePopUp.swift; sourceTree = "<group>"; };
+		BD12FFAD1F059BB500313B65 /* CustomViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		BD12FFAF1F05A17400313B65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD12FFB21F05A43200313B65 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		BD12FFB61F05B56800313B65 /* Mentors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mentors.swift; sourceTree = "<group>"; };
+		BD12FFB81F05C62500313B65 /* MentorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentorCell.swift; sourceTree = "<group>"; };
+		BD12FFBA1F05C97000313B65 /* FirebaseFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D62F54F2C81344E685AFC9 /* Pods_TIDESMentors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		409AF4D81FED752B1E2677E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61973D8CA67C508D4AB412E8 /* Pods_TIDESMentors.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD12FF4A1F02D14600313B65 = {
 			isa = PBXGroup;
 			children = (
 				BD12FF551F02D14600313B65 /* TIDESMentors */,
 				BD12FF541F02D14600313B65 /* Products */,
+				CAA491A87352974279778AE1 /* Pods */,
+				409AF4D81FED752B1E2677E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,70 @@
 		BD12FF551F02D14600313B65 /* TIDESMentors */ = {
 			isa = PBXGroup;
 			children = (
-				BD12FF561F02D14600313B65 /* AppDelegate.swift */,
-				BD12FF581F02D14600313B65 /* ViewController.swift */,
-				BD12FF5A1F02D14600313B65 /* Main.storyboard */,
-				BD12FF5D1F02D14600313B65 /* Assets.xcassets */,
-				BD12FF5F1F02D14600313B65 /* LaunchScreen.storyboard */,
-				BD12FF621F02D14600313B65 /* Info.plist */,
+				BD12FFB11F05A41C00313B65 /* Database Services */,
+				BD12FFA71F0553DA00313B65 /* Controllers */,
+				BD12FFB51F05B54F00313B65 /* Models */,
+				BD12FFA81F0553EA00313B65 /* GUI */,
+				BD12FFB41F05B51E00313B65 /* Other */,
 			);
 			path = TIDESMentors;
+			sourceTree = "<group>";
+		};
+		BD12FFA71F0553DA00313B65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD12FF681F02D40000313B65 /* MentorController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BD12FFA81F0553EA00313B65 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				BD12FF5A1F02D14600313B65 /* Main.storyboard */,
+				BD12FF5F1F02D14600313B65 /* LaunchScreen.storyboard */,
+				BD12FF5D1F02D14600313B65 /* Assets.xcassets */,
+				BD12FFAB1F0574B100313B65 /* AnimatePopUp.swift */,
+				BD12FFAD1F059BB500313B65 /* CustomViews.swift */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		BD12FFB11F05A41C00313B65 /* Database Services */ = {
+			isa = PBXGroup;
+			children = (
+				BD12FFB21F05A43200313B65 /* DataServices.swift */,
+				BD12FFBA1F05C97000313B65 /* FirebaseFunctions.swift */,
+			);
+			name = "Database Services";
+			sourceTree = "<group>";
+		};
+		BD12FFB41F05B51E00313B65 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BD12FF621F02D14600313B65 /* Info.plist */,
+				BD12FFAF1F05A17400313B65 /* GoogleService-Info.plist */,
+				BD12FF561F02D14600313B65 /* AppDelegate.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		BD12FFB51F05B54F00313B65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD12FFB61F05B56800313B65 /* Mentors.swift */,
+				BD12FFB81F05C62500313B65 /* MentorCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CAA491A87352974279778AE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B1B053BE05AA52244DBA4E5 /* Pods-TIDESMentors.debug.xcconfig */,
+				2157A8D44F0A445D7D91F619 /* Pods-TIDESMentors.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD12FF651F02D14600313B65 /* Build configuration list for PBXNativeTarget "TIDESMentors" */;
 			buildPhases = (
+				11868AE5FF4F52B38221E842 /* [CP] Check Pods Manifest.lock */,
 				BD12FF4F1F02D14600313B65 /* Sources */,
 				BD12FF501F02D14600313B65 /* Frameworks */,
 				BD12FF511F02D14600313B65 /* Resources */,
+				FE6CF3244F11F10163272140 /* [CP] Embed Pods Frameworks */,
+				3FE8D59708A9354A09B20C71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD12FF611F02D14600313B65 /* LaunchScreen.storyboard in Resources */,
+				BD12FFB01F05A17400313B65 /* GoogleService-Info.plist in Resources */,
 				BD12FF5E1F02D14600313B65 /* Assets.xcassets in Resources */,
 				BD12FF5C1F02D14600313B65 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +220,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11868AE5FF4F52B38221E842 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FE8D59708A9354A09B20C71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIDESMentors/Pods-TIDESMentors-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE6CF3244F11F10163272140 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIDESMentors/Pods-TIDESMentors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD12FF4F1F02D14600313B65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD12FF591F02D14600313B65 /* ViewController.swift in Sources */,
+				BD12FFB91F05C62500313B65 /* MentorCell.swift in Sources */,
+				BD12FFB31F05A43200313B65 /* DataServices.swift in Sources */,
+				BD12FFAC1F0574B100313B65 /* AnimatePopUp.swift in Sources */,
+				BD12FFAE1F059BB500313B65 /* CustomViews.swift in Sources */,
+				BD12FFBB1F05C97000313B65 /* FirebaseFunctions.swift in Sources */,
+				BD12FF691F02D40000313B65 /* MentorController.swift in Sources */,
+				BD12FFB71F05B56800313B65 /* Mentors.swift in Sources */,
 				BD12FF571F02D14600313B65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +401,7 @@
 		};
 		BD12FF661F02D14600313B65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1B053BE05AA52244DBA4E5 /* Pods-TIDESMentors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TIDESMentors/Info.plist;
@@ -270,6 +414,7 @@
 		};
 		BD12FF671F02D14600313B65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2157A8D44F0A445D7D91F619 /* Pods-TIDESMentors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TIDESMentors/Info.plist;
@@ -299,6 +444,7 @@
 				BD12FF671F02D14600313B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

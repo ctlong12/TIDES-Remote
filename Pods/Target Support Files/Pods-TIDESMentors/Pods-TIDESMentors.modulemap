@@ -1,0 +1,6 @@
+framework module Pods_TIDESMentors {
+  umbrella header "Pods-TIDESMentors-umbrella.h"
+
+  export *
+  module * { export * }
+}
